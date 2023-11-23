@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN: Final = '6665538261:AAHWnBC_23Eh227DgrxyG4qAQ9UXiykY_tI'
+TOKEN: Final = 'BOT_API_TOKEN'
 BOT_USERNAME: Final = '@api_testt_bot'
 
 async def start_command(update: Update, context:ContextTypes.DEFAULT_TYPE):
